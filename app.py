@@ -52,7 +52,7 @@ def register():
         # put the new user into 'session' cookie
         session["user"] = request.form.get("username").lower()
         flash("Registration Successful!")
-        return redirect(url_for("base", username=session["user"]))
+        return redirect(url_for("home", username=session["user"]))
 
     return render_template("base.html")
 
@@ -72,7 +72,7 @@ def login():
                         flash("Welcome, {}".format(
                             request.form.get("username")))
                         return redirect(url_for(
-                            "base", username=session["user"]))
+                            "login", username=session["user"]))
             else:
                 # invalid password match
                 flash("Incorrect Username and/or Password")
@@ -103,7 +103,7 @@ def logout():
     # remove user from session cookie
     flash("You have been logged out")
     session.pop("user")
-    return redirect(url_for("login"))
+    return redirect(url_for("base"))
 
 
 @app.route("/add_task", methods=["GET", "POST"])
