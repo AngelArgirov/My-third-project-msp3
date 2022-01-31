@@ -3,6 +3,9 @@
 
     <h3 class="grey-text text-darken-4 center-align">Class Tasks</h3>
 
+
+    {% if tasks|length > 0 %}
+
     
     <ul class="collapsible">
         {% for task in tasks %}
