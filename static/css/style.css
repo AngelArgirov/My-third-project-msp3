@@ -1,3 +1,12 @@
+.container {
+    .hero {
+  background: #000000;
+  background: -webkit-linear-gradient(to left, #2c2c2c, #000000);
+  background: linear-gradient(to left, #2c2c2c, #000000); 
+  padding: 200px 0;
+}
+}
+
 .text-shadow {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
