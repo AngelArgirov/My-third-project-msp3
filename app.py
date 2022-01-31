@@ -101,7 +101,6 @@ def profile(username):
 @app.route("/logout")
 def logout():
     # remove user from session cookie
-    flash("You have been logged out")
     session.pop("user")
     return redirect(url_for("login"))
 
@@ -119,7 +118,6 @@ def add_task():
             "created_by": session["user"]
         }
         mongo.db.tasks.insert_one(task)
-        flash("Task Successfully Added")
         return redirect(url_for("get_tasks"))
 
     categories = mongo.db.categories.find().sort("category_name", 1)
@@ -139,7 +137,6 @@ def edit_task(task_id):
             "created_by": session["user"]
         }
         mongo.db.tasks.update({"_id": ObjectId(task_id)}, submit)
-        flash("Task Successfully Updated")
 
     task = mongo.db.tasks.find_one({"_id": ObjectId(task_id)})
     categories = mongo.db.categories.find().sort("category_name", 1)
@@ -149,7 +146,6 @@ def edit_task(task_id):
 @app.route("/delete_task/<task_id>")
 def delete_task(task_id):
     mongo.db.tasks.remove({"_id": ObjectId(task_id)})
-    flash("Task Successfully Deleted")
     return redirect(url_for("get_tasks"))
 
 
@@ -166,7 +162,6 @@ def add_category():
             "category_name": request.form.get("category_name")
         }
         mongo.db.categories.insert_one(category)
-        flash("New Category Added")
         return redirect(url_for("get_categories"))
 
     return render_template("add_category.html")
@@ -179,7 +174,6 @@ def edit_category(category_id):
             "category_name": request.form.get("category_name")
         }
         mongo.db.categories.update({"_id": ObjectId(category_id)}, submit)
-        flash("Category Successfully Updated")
         return redirect(url_for("get_categories"))
 
     category = mongo.db.categories.find_one({"_id": ObjectId(category_id)})
@@ -189,7 +183,6 @@ def edit_category(category_id):
 @app.route("/delete_category/<category_id>")
 def delete_category(category_id):
     mongo.db.categories.remove({"_id": ObjectId(category_id)})
-    flash("Category Successfully Deleted")
     return redirect(url_for("get_categories"))
 
 
