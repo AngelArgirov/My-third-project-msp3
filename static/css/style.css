@@ -1,3 +1,9 @@
+body{
+    background: #000000;
+    background: -webkit-linear-gradient(to left, #2c2c2c, #000000);
+    background: linear-gradient(to left, #2c2c2c, #000000); 
+}
+
 .container { 
     background: white;
     padding: 200px 0;
