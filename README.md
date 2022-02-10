@@ -31,8 +31,7 @@ Task App is an app that gives users the possibility to create their own task lis
 # [Wireframes](https://github.com/AngelArgirov/My-third-project-msp3/tree/main/WIREFRAMES)
 
 
-
-#[HTML VALIDATOR](https://github.com/AngelArgirov/My-third-project-msp3/blob/main/WIREFRAMES/Screenshot%202022-02-10%20at%2010.56.31.png)
+ [HTML VALIDATOR](https://github.com/AngelArgirov/My-third-project-msp3/blob/main/WIREFRAMES/Screenshot%202022-02-10%20at%2010.56.31.png)
 
 
 # UX
