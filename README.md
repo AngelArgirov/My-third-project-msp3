@@ -4,7 +4,7 @@
 Task App is an app that gives users the possibility to create their own task list. The app enables users to add tasks, mark tasks as finished, remove finished tasks and clear all list items.  
 
 
-![Screenshot 2022-02-10 at 11.09.21.png]()
+![Screenshot 2022-02-10 at 11.09.21.png](https://github.com/AngelArgirov/My-third-project-msp3/blob/main/static/mockups/Screenshot%202022-02-10%20at%2011.09.21.png)
 
 
 
