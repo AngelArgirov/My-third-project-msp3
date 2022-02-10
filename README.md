@@ -86,7 +86,6 @@ As a user I want:
 ## Libraries
 
 * Bootstrap 
-* Django 
 * Google Fonts
 
 ## Tools:
@@ -96,8 +95,6 @@ As a user I want:
 * Cloudinary - storage of static files. 
 * Allauth - Enables the creation and hosting of users.
 * Google Chrome DevTools - for testing and debugging.
-* W3 html validator - test html code.
-* W3 css validator - test css code.
 * PEP8 - test Python code.
 
 # Testing
