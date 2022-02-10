@@ -23,12 +23,14 @@ Task App is an app that gives users the possibility to create their own task lis
 
 * [Deployment](#Deployment)    
 
+* [Wireframes](#Wireframes)  
+
 
 ***  
 
 # Wireframes
 
-Laptop: 
+Computer
 
 
 
