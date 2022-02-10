@@ -32,6 +32,8 @@ Task App is an app that gives users the possibility to create their own task lis
 
 Computer
 
+https://github.com/AngelArgirov/My-third-project-msp3/blob/main/WIREFRAMES/wireframe-3/Screenshot%202022-02-10%20at%2010.27.01.png?raw=true
+
 
 
 Phone
