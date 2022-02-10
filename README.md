@@ -28,7 +28,7 @@ Task App is an app that gives users the possibility to create their own task lis
 
 ***  
 
-# Wireframes
+# [Wireframes](https://github.com/AngelArgirov/My-third-project-msp3/tree/main/WIREFRAMES)
 
 
 
@@ -106,9 +106,6 @@ It's possible to create a user
 
 # Deployment 
 
-## Create Project
-
-* The project respository was create using Code Institutes Gitpod Full [Template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 ## Installed Modules
 
